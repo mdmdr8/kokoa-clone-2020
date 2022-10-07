@@ -7,6 +7,7 @@
 @import "components/status-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /*screen*/
 @import "screens/login.css";
@@ -16,4 +17,8 @@ body {
   color: #1e2328;
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
